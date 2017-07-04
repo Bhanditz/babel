@@ -74,6 +74,7 @@ var transformOpts = {
   ],
 
   plugins: [
+    require("../../babel-plugin-transform-proto-to-assign"), // Support IE 10 (affects inherits.js helper)
     require("../../babel-plugin-transform-runtime"),
     [require("../../babel-plugin-transform-es2015-modules-commonjs"), {loose: true, strict: false}]
   ]
