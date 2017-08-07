@@ -1,5 +1,5 @@
 {
-  "name": "@princed/babel-runtime",
+  "name": "@jetbrains/babel-runtime",
   "version": "6.23.0",
   "description": "babel selfContained runtime",
   "license": "MIT",
